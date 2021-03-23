@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="check_in_date" label="Check In Date" language="en" table="x_172337_beer_db_check_in">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>check_in_date</element>
+            <help/>
+            <hint/>
+            <label>Check In Date</label>
+            <language>en</language>
+            <name>x_172337_beer_db_check_in</name>
+            <plural>Check In Dates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-23 16:21:38</sys_created_on>
+            <sys_id>752105c62fc3201003a82f2ef699b674</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Check In Date</sys_name>
+            <sys_package display_value="Beer DB" source="x_172337_beer_db">009518422f43201003a82f2ef699b66d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Beer DB">009518422f43201003a82f2ef699b66d</sys_scope>
+            <sys_update_name>sys_documentation_x_172337_beer_db_check_in_check_in_date_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-23 16:21:38</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
+    <sys_index action="INSERT_OR_UPDATE">
+        <col_name_string>check_in_id</col_name_string>
+        <index_col_name element="check_in_id" name="x_172337_beer_db_check_in">e06085862fc3201003a82f2ef699b671</index_col_name>
+        <logical_table_name>x_172337_beer_db_check_in</logical_table_name>
+        <sys_class_name>sys_index</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-03-23 17:27:09</sys_created_on>
+        <sys_id>f52099c22f07201003a82f2ef699b6c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_172337_beer_db_check_in</sys_name>
+        <sys_package display_value="Beer DB" source="x_172337_beer_db">009518422f43201003a82f2ef699b66d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Beer DB">009518422f43201003a82f2ef699b66d</sys_scope>
+        <sys_update_name>sys_index_x_172337_beer_db_check_in_check_in_id</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-03-23 17:27:09</sys_updated_on>
+        <table display_value="Check In" name="x_172337_beer_db_check_in">5e2085862fc3201003a82f2ef699b627</table>
+        <unique_index>false</unique_index>
+    </sys_index>
+</record_update>

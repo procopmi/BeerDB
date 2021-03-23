@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Serving" max_length="40" name="x_172337_beer_db_serving" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element display="true" label="Serving Type" mandatory="true" max_length="40" name="serving_type" type="string"/>
+        <index name="index">
+            <element name="serving_type"/>
+        </index>
+    </element>
+</database>

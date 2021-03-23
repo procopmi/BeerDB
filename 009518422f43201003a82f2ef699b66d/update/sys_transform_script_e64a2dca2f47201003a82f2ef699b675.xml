@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="Checkin Transform">f94f0d822f07201003a82f2ef699b677</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+	// Add your code here
+	var longitude = source.u_venue_lng;
+	var latitude = source.u_venue_lat;
+	var venueName = source.u_venue_name;
+	var grVenue = new GlideRecord('x_172337_beer_db_venue');
+	var venue = '';
+
+	grVenue.addQuery('venue_name',venueName);
+	grVenue.addQuery('longitude',longitude);
+	grVenue.addQuery('latitude',latitude);
+	grVenue.query();
+	if(grVenue.next())
+	{
+		venue = grVenue.sys_id;
+	}
+
+	target.venue = venue;
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-23 19:37:33</sys_created_on>
+        <sys_id>e64a2dca2f47201003a82f2ef699b675</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="Beer DB" source="x_172337_beer_db">009518422f43201003a82f2ef699b66d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Beer DB">009518422f43201003a82f2ef699b66d</sys_scope>
+        <sys_update_name>sys_transform_script_e64a2dca2f47201003a82f2ef699b675</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-23 19:37:33</sys_updated_on>
+        <when>onBefore</when>
+    </sys_transform_script>
+</record_update>

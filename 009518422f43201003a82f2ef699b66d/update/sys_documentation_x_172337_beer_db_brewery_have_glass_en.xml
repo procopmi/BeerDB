@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="have_glass" label="Have Glass" language="en" table="x_172337_beer_db_brewery">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>have_glass</element>
+            <help/>
+            <hint/>
+            <label>Have Glass</label>
+            <language>en</language>
+            <name>x_172337_beer_db_brewery</name>
+            <plural>Have Glass</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-03-23 13:31:17</sys_created_on>
+            <sys_id>a22adc862f43201003a82f2ef699b6fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Have Glass</sys_name>
+            <sys_package display_value="Beer DB" source="x_172337_beer_db">009518422f43201003a82f2ef699b66d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Beer DB">009518422f43201003a82f2ef699b66d</sys_scope>
+            <sys_update_name>sys_documentation_x_172337_beer_db_brewery_have_glass_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-03-23 13:31:17</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

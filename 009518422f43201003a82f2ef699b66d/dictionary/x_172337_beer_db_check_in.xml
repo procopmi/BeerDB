@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Check In" max_length="40" name="x_172337_beer_db_check_in" type="collection">
+        <element label="Beer" max_length="32" name="beer" reference="x_172337_beer_db_beer" type="reference"/>
+        <element label="Check In Date" mandatory="true" max_length="40" name="check_in_date" type="glide_date_time"/>
+        <element label="Check In ID" max_length="40" name="check_in_id" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="ref_auto_completer=AJAXReferenceChoice" choice="1" label="Serving Type" max_length="32" name="serving_type" reference="x_172337_beer_db_serving" type="reference">
+            <choice/>
+        </element>
+        <element label="Venue" max_length="32" name="venue" reference="x_172337_beer_db_venue" type="reference"/>
+        <index name="index">
+            <element name="venue"/>
+        </index>
+        <index name="index2">
+            <element name="check_in_id"/>
+        </index>
+        <index name="index3">
+            <element name="serving_type"/>
+        </index>
+        <index name="index4">
+            <element name="beer"/>
+        </index>
+    </element>
+</database>

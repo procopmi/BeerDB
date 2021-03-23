@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Brewery" max_length="40" name="x_172337_beer_db_brewery" type="collection">
+        <element label="Brewery ID" max_length="20" name="brewery_id" type="string"/>
+        <element display="true" label="Brewery Name" mandatory="true" max_length="50" name="brewery_name" type="string"/>
+        <element label="City" max_length="50" name="city" type="string"/>
+        <element label="Country" max_length="40" name="country" type="string"/>
+        <element label="Have Glass" max_length="40" name="have_glass" type="boolean"/>
+        <element label="Logo" max_length="40" name="logo" type="user_image"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="State" max_length="40" name="state" type="string"/>
+        <element label="Visited" max_length="40" name="visited" type="boolean"/>
+        <index name="index">
+            <element name="brewery_id"/>
+        </index>
+    </element>
+</database>

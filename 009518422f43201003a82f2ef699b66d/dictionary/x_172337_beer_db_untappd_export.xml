@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Untappd Export" max_length="40" name="x_172337_beer_db_untappd_export" type="collection">
+        <element attributes="import_attribute_name=beer_abv" label="beer_abv" max_length="15" name="u_beer_abv" type="decimal"/>
+        <element attributes="import_attribute_name=beer_ibu" label="beer_ibu" max_length="40" name="u_beer_ibu" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=beer_name" label="beer_name" max_length="82" name="u_beer_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=beer_type" label="beer_type" max_length="40" name="u_beer_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=beer_url" label="beer_url" max_length="40" name="u_beer_url" type="string"/>
+        <element attributes="import_attribute_name=bid" label="bid" max_length="40" name="u_bid" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=brewery_city" label="brewery_city" max_length="40" name="u_brewery_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=brewery_country" label="brewery_country" max_length="40" name="u_brewery_country" type="string"/>
+        <element attributes="import_attribute_name=brewery_id" label="brewery_id" max_length="40" name="u_brewery_id" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=brewery_name" label="brewery_name" max_length="44" name="u_brewery_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=brewery_state" label="brewery_state" max_length="40" name="u_brewery_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=brewery_url" label="brewery_url" max_length="40" name="u_brewery_url" type="string"/>
+        <element attributes="import_attribute_name=checkin_id" label="checkin_id" max_length="40" name="u_checkin_id" type="float"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=checkin_url" label="checkin_url" max_length="40" name="u_checkin_url" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=comment" label="comment" max_length="64" name="u_comment" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=created_at" label="created_at" max_length="40" name="u_created_at" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=flavor_profiles" label="flavor_profiles" max_length="40" name="u_flavor_profiles" type="string"/>
+        <element attributes="import_attribute_name=global_rating_score" label="global_rating_score" max_length="15" name="u_global_rating_score" type="decimal"/>
+        <element attributes="import_attribute_name=global_weighted_rating_score" label="global_weighted_rating_score" max_length="15" name="u_global_weighted_rating_score" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="ï»¿beer_name" max_length="40" name="u_ï__beer_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=photo_url" label="photo_url" max_length="92" name="u_photo_url" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=purchase_venue" label="purchase_venue" max_length="40" name="u_purchase_venue" type="string"/>
+        <element attributes="import_attribute_name=rating_score" label="rating_score" max_length="15" name="u_rating_score" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=serving_type" label="serving_type" max_length="40" name="u_serving_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=tagged_friends" label="tagged_friends" max_length="40" name="u_tagged_friends" type="string"/>
+        <element attributes="import_attribute_name=total_comments" label="total_comments" max_length="40" name="u_total_comments" type="integer"/>
+        <element attributes="import_attribute_name=total_toasts" label="total_toasts" max_length="40" name="u_total_toasts" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=venue_city" label="venue_city" max_length="40" name="u_venue_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=venue_country" label="venue_country" max_length="40" name="u_venue_country" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=venue_lat" label="venue_lat" max_length="40" name="u_venue_lat" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=venue_lng" label="venue_lng" max_length="40" name="u_venue_lng" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=venue_name" label="venue_name" max_length="40" name="u_venue_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=venue_state" label="venue_state" max_length="40" name="u_venue_state" type="string"/>
+    </element>
+</database>

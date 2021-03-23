@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-23 16:16:33</sys_created_on>
+        <sys_id>2bff34862fc3201003a82f2ef699b667</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_172337_beer_db_serving.x_172337_beer_db.serving_user</sys_name>
+        <sys_package display_value="Beer DB" source="x_172337_beer_db">009518422f43201003a82f2ef699b66d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Beer DB">009518422f43201003a82f2ef699b66d</sys_scope>
+        <sys_security_acl display_value="x_172337_beer_db_serving">afff34862fc3201003a82f2ef699b656</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_2bff34862fc3201003a82f2ef699b667</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-23 16:16:33</sys_updated_on>
+        <sys_user_role display_value="x_172337_beer_db.serving_user" name="x_172337_beer_db.serving_user">d7ff3c462fc3201003a82f2ef699b6af</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
