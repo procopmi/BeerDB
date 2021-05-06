@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="sys_import_set_row" label="Untappd Export" max_length="40" name="x_172337_beer_db_untappd_export" type="collection">
+    <element extends="sys_import_set_row" label="Untappd Export" max_length="40" name="x_172337_beer_db_untappd_export" sizeclass="0" type="collection">
         <element attributes="import_attribute_name=beer_abv" label="beer_abv" max_length="15" name="u_beer_abv" type="decimal"/>
         <element attributes="import_attribute_name=beer_ibu" label="beer_ibu" max_length="40" name="u_beer_ibu" type="integer"/>
         <element attributes="edge_encryption_enabled=true,import_attribute_name=beer_name" label="beer_name" max_length="82" name="u_beer_name" type="string"/>

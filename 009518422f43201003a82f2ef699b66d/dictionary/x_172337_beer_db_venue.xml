@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Venue" max_length="40" name="x_172337_beer_db_venue" type="collection">
+    <element label="Venue" max_length="40" name="x_172337_beer_db_venue" sizeclass="145" type="collection">
         <element label="City" max_length="40" name="city" type="string"/>
         <element label="Country" max_length="40" name="country" type="string"/>
         <element label="Latitude" max_length="20" name="latitude" type="decimal"/>
