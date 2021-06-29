@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_entry">
+    <sys_transform_entry action="INSERT_OR_UPDATE">
+        <choice_action>create</choice_action>
+        <coalesce>false</coalesce>
+        <coalesce_case_sensitive>false</coalesce_case_sensitive>
+        <coalesce_empty_fields>false</coalesce_empty_fields>
+        <date_format>yyyy-MM-dd HH:mm:ss</date_format>
+        <map display_value="Checkin Transform">f94f0d822f07201003a82f2ef699b677</map>
+        <reference_value_field>venue_name</reference_value_field>
+        <source_field>[Script]</source_field>
+        <source_script><![CDATA[answer = (function transformEntry(source) {
+
+	var venueName = source.u_venue_name.toString();
+	var venueLng = source.u_venue_lng.toString();
+	var venueLat = source.u_venue_lat.toString();
+	var venue = '';
+	
+	var grVenue = new GlideRecord('x_172337_beer_db_venue');
+	grVenue.addQuery('venue_name',venueName);
+	grVenue.addQuery('longitude',venueLng);
+	grVenue.addQuery('latitude',venueLat);
+	grVenue.query();
+	if (grVenue.next())
+		{
+			venue = grVenue.sys_id;
+		}
+	// Add your code here
+	return venue; // return the value to be put into the target field
+
+})(source);]]></source_script>
+        <source_table>x_172337_beer_db_untappd_json</source_table>
+        <sys_class_name>sys_transform_entry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-03 21:00:53</sys_created_on>
+        <sys_id>d283f49d2f24301003a82f2ef699b6af</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>[Script]</sys_name>
+        <sys_package display_value="Beer DB" source="x_172337_beer_db">009518422f43201003a82f2ef699b66d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Beer DB">009518422f43201003a82f2ef699b66d</sys_scope>
+        <sys_update_name>sys_transform_entry_d283f49d2f24301003a82f2ef699b6af</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-29 18:30:41</sys_updated_on>
+        <target_field>venue</target_field>
+        <target_table>x_172337_beer_db_check_in</target_table>
+        <use_source_script>true</use_source_script>
+    </sys_transform_entry>
+</record_update>

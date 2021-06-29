@@ -17,7 +17,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2021-03-23 19:10:50</sys_updated_on>
         <table>x_172337_beer_db_check_in</table>
-        <ui_policy display_value="Brewery Read Only">6eb7a14a2f47201003a82f2ef699b6ce</ui_policy>
+        <ui_policy display_value="Read Only Fields">6eb7a14a2f47201003a82f2ef699b6ce</ui_policy>
         <visible>ignore</visible>
     </sys_ui_policy_action>
 </record_update>

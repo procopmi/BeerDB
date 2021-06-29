@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Brewery" max_length="40" name="x_172337_beer_db_brewery" sizeclass="212" type="collection">
+    <element label="Brewery" max_length="40" name="x_172337_beer_db_brewery" sizeclass="0" type="collection">
         <element label="Brewery ID" max_length="20" name="brewery_id" type="string"/>
         <element display="true" label="Brewery Name" mandatory="true" max_length="50" name="brewery_name" type="string"/>
         <element label="City" max_length="50" name="city" type="string"/>

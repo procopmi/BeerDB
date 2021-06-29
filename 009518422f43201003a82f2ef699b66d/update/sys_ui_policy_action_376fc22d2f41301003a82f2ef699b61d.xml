@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>beer.style</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-29 18:52:25</sys_created_on>
+        <sys_id>376fc22d2f41301003a82f2ef699b61d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>beer.style</sys_name>
+        <sys_package display_value="Beer DB" source="x_172337_beer_db">009518422f43201003a82f2ef699b66d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Beer DB">009518422f43201003a82f2ef699b66d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_376fc22d2f41301003a82f2ef699b61d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-29 18:52:25</sys_updated_on>
+        <table>x_172337_beer_db_check_in</table>
+        <ui_policy display_value="Read Only Fields">6eb7a14a2f47201003a82f2ef699b6ce</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

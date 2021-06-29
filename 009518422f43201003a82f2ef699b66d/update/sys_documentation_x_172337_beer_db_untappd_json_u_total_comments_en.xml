@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_total_comments" label="total_comments" language="en" table="x_172337_beer_db_untappd_json">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_total_comments</element>
+            <help/>
+            <hint/>
+            <label>total_comments</label>
+            <language>en</language>
+            <name>x_172337_beer_db_untappd_json</name>
+            <plural>total_comments</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-03 20:38:12</sys_created_on>
+            <sys_id>425e68992f24301003a82f2ef699b6f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>total_comments</sys_name>
+            <sys_package display_value="Beer DB" source="x_172337_beer_db">009518422f43201003a82f2ef699b66d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Beer DB">009518422f43201003a82f2ef699b66d</sys_scope>
+            <sys_update_name>sys_documentation_x_172337_beer_db_untappd_json_u_total_comments_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-03 20:38:12</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

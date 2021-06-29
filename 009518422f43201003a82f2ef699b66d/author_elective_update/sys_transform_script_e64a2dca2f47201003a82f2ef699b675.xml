@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_transform_script">
+    <sys_transform_script action="DELETE">
+        <active>true</active>
+        <map display_value="Checkin Transform">f94f0d822f07201003a82f2ef699b677</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+	// Add your code here
+	var longitude = source.u_venue_lng;
+	var latitude = source.u_venue_lat;
+	var venueName = source.u_venue_name;
+	var grVenue = new GlideRecord('x_172337_beer_db_venue');
+	var venue = '';
+
+	grVenue.addQuery('venue_name',venueName);
+	grVenue.addQuery('longitude',longitude);
+	grVenue.addQuery('latitude',latitude);
+	grVenue.query();
+	if(grVenue.next())
+	{
+		venue = grVenue.sys_id;
+	}
+
+	target.venue = venue;
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-03-23 19:37:33</sys_created_on>
+        <sys_id>e64a2dca2f47201003a82f2ef699b675</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="Beer DB" source="x_172337_beer_db">009518422f43201003a82f2ef699b66d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Beer DB">009518422f43201003a82f2ef699b66d</sys_scope>
+        <sys_update_name>sys_transform_script_e64a2dca2f47201003a82f2ef699b675</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-23 19:37:33</sys_updated_on>
+        <when>onBefore</when>
+    </sys_transform_script>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Beer DB">009518422f43201003a82f2ef699b66d</application>
+        <file_path/>
+        <instance_id>4af8a26edb0397441ddcf22ebf961917</instance_id>
+        <instance_name>dev63807</instance_name>
+        <name>sys_transform_script_e64a2dca2f47201003a82f2ef699b675</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_transform_script"&gt;
+    &lt;sys_transform_script action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;map display_value="Checkin Transform"&gt;f94f0d822f07201003a82f2ef699b677&lt;/map&gt;
+        &lt;order&gt;100&lt;/order&gt;
+        &lt;script&gt;&lt;![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+
+	// Add your code here
+	var longitude = source.u_venue_lng;
+	var latitude = source.u_venue_lat;
+	var venueName = source.u_venue_name;
+	var grVenue = new GlideRecord('x_172337_beer_db_venue');
+	var venue = '';
+
+	grVenue.addQuery('venue_name',venueName);
+	grVenue.addQuery('longitude',longitude);
+	grVenue.addQuery('latitude',latitude);
+	grVenue.query();
+	if(grVenue.next())
+	{
+		venue = grVenue.sys_id;
+	}
+
+	target.venue = venue;
+})(source, map, log, target);]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_transform_script&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2021-03-23 19:37:33&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;e64a2dca2f47201003a82f2ef699b675&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;onBefore&lt;/sys_name&gt;
+        &lt;sys_package display_value="Beer DB" source="x_172337_beer_db"&gt;009518422f43201003a82f2ef699b66d&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Beer DB"&gt;009518422f43201003a82f2ef699b66d&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_transform_script_e64a2dca2f47201003a82f2ef699b675&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2021-03-23 19:37:33&lt;/sys_updated_on&gt;
+        &lt;when&gt;onBefore&lt;/when&gt;
+    &lt;/sys_transform_script&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>376758560</payload_hash>
+        <record_name>onBefore</record_name>
+        <reverted_from/>
+        <source>94ba3cf22f00301003a82f2ef699b6bf</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-14 16:52:03</sys_created_on>
+        <sys_id>1aca74362f00301003a82f2ef699b6eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1796bcacc810000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-14 16:52:03</sys_updated_on>
+        <type>Transform Script</type>
+        <update_guid>d6ca7436bb003010f28537e076419eeb</update_guid>
+        <update_guid_history>d6ca7436bb003010f28537e076419eeb:376758560</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-29 17:33:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_transform_script">sys_transform_script</sys_db_object>
+        <sys_id>50ff2b0343da40828200414f92098db9</sys_id>
+        <sys_metadata>e64a2dca2f47201003a82f2ef699b675</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onBefore</sys_name>
+        <sys_package display_value="Beer DB" source="x_172337_beer_db">009518422f43201003a82f2ef699b66d</sys_package>
+        <sys_parent display_value="Checkin Transform">f94f0d822f07201003a82f2ef699b677</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Beer DB">009518422f43201003a82f2ef699b66d</sys_scope>
+        <sys_scope_delete display_value="">1f6c526d0b534656846c784f2a7a3c09</sys_scope_delete>
+        <sys_update_name>sys_transform_script_e64a2dca2f47201003a82f2ef699b675</sys_update_name>
+        <sys_update_version display_value="sys_transform_script_e64a2dca2f47201003a82f2ef699b675">1aca74362f00301003a82f2ef699b6eb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-29 17:33:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

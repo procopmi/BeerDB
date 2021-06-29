@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config">
+    <ua_table_licensing_config action="DELETE">
+        <is_fulfillment>false</is_fulfillment>
+        <license_condition/>
+        <license_model>none</license_model>
+        <license_roles/>
+        <name>x_172337_beer_db_untappd_export</name>
+        <op_delete>true</op_delete>
+        <op_insert>true</op_insert>
+        <op_update>true</op_update>
+        <owner_condition/>
+        <sys_class_name>ua_table_licensing_config</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-05-14 16:51:33</sys_created_on>
+        <sys_id>0faaf8f22f00301003a82f2ef699b641</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_172337_beer_db_untappd_export</sys_name>
+        <sys_package display_value="Beer DB" source="x_172337_beer_db">009518422f43201003a82f2ef699b66d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Beer DB">009518422f43201003a82f2ef699b66d</sys_scope>
+        <sys_update_name>ua_table_licensing_config_0faaf8f22f00301003a82f2ef699b641</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-14 16:51:33</sys_updated_on>
+    </ua_table_licensing_config>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Beer DB">009518422f43201003a82f2ef699b66d</application>
+        <file_path/>
+        <instance_id>4af8a26edb0397441ddcf22ebf961917</instance_id>
+        <instance_name>dev63807</instance_name>
+        <name>ua_table_licensing_config_0faaf8f22f00301003a82f2ef699b641</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_172337_beer_db_untappd_export</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-05-14 16:51:33</sys_created_on><sys_id>0faaf8f22f00301003a82f2ef699b641</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_172337_beer_db_untappd_export</sys_name><sys_package display_value="Beer DB" source="x_172337_beer_db">009518422f43201003a82f2ef699b66d</sys_package><sys_policy/><sys_scope display_value="Beer DB">009518422f43201003a82f2ef699b66d</sys_scope><sys_update_name>ua_table_licensing_config_0faaf8f22f00301003a82f2ef699b641</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-05-14 16:51:33</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+        <payload_hash>-1742420036</payload_hash>
+        <record_name>x_172337_beer_db_untappd_export</record_name>
+        <reverted_from/>
+        <source>06b9f0222f00301003a82f2ef699b651</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2021-05-13 22:08:54</sys_created_on>
+        <sys_id>87caf4362f00301003a82f2ef699b6f3</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>17967c684f00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Table Subscription Configuration</type>
+        <update_guid>47caf4362d0030109a097eeb905f03f3</update_guid>
+        <update_guid_history>47caf4362d0030109a097eeb905f03f3:-1742420036</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-29 18:55:55</sys_created_on>
+        <sys_db_object display_value="" name="ua_table_licensing_config">ua_table_licensing_config</sys_db_object>
+        <sys_id>3a8c1168e9034a2898726fb7c9058261</sys_id>
+        <sys_metadata>0faaf8f22f00301003a82f2ef699b641</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_172337_beer_db_untappd_export</sys_name>
+        <sys_package display_value="Beer DB" source="x_172337_beer_db">009518422f43201003a82f2ef699b66d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Beer DB">009518422f43201003a82f2ef699b66d</sys_scope>
+        <sys_scope_delete display_value="">1f6c526d0b534656846c784f2a7a3c09</sys_scope_delete>
+        <sys_update_name>ua_table_licensing_config_0faaf8f22f00301003a82f2ef699b641</sys_update_name>
+        <sys_update_version display_value="ua_table_licensing_config_0faaf8f22f00301003a82f2ef699b641">87caf4362f00301003a82f2ef699b6f3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-29 18:55:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

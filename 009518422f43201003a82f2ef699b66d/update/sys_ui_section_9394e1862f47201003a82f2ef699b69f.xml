@@ -4,13 +4,13 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-23 19:09:01</sys_created_on>
-            <sys_id>06772d0a2f47201003a82f2ef699b67b</sys_id>
+            <sys_created_on>2021-06-29 18:51:48</sys_created_on>
+            <sys_id>4d5f4ee92f41301003a82f2ef699b644</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_172337_beer_db_check_in" sys_domain="global" view="Default view">9394e1862f47201003a82f2ef699b69f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-23 19:09:01</sys_updated_on>
+            <sys_updated_on>2021-06-29 18:51:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>check_in_date</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-23 19:09:01</sys_created_on>
-            <sys_id>86772d0a2f47201003a82f2ef699b67b</sys_id>
+            <sys_created_on>2021-06-29 18:51:48</sys_created_on>
+            <sys_id>055f4ee92f41301003a82f2ef699b645</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_172337_beer_db_check_in" sys_domain="global" view="Default view">9394e1862f47201003a82f2ef699b69f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-23 19:09:01</sys_updated_on>
+            <sys_updated_on>2021-06-29 18:51:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,69 +32,97 @@
             <element>venue</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-23 19:09:01</sys_created_on>
-            <sys_id>0a772d0a2f47201003a82f2ef699b67b</sys_id>
+            <sys_created_on>2021-06-29 18:51:48</sys_created_on>
+            <sys_id>855f4ee92f41301003a82f2ef699b645</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_172337_beer_db_check_in" sys_domain="global" view="Default view">9394e1862f47201003a82f2ef699b69f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-23 19:09:01</sys_updated_on>
+            <sys_updated_on>2021-06-29 18:51:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>venue.city</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-29 18:51:48</sys_created_on>
+            <sys_id>095f4ee92f41301003a82f2ef699b645</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_172337_beer_db_check_in" sys_domain="global" view="Default view">9394e1862f47201003a82f2ef699b69f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-29 18:51:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-23 19:09:01</sys_created_on>
-            <sys_id>8a772d0a2f47201003a82f2ef699b67b</sys_id>
+            <sys_created_on>2021-06-29 18:51:48</sys_created_on>
+            <sys_id>895f4ee92f41301003a82f2ef699b645</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_172337_beer_db_check_in" sys_domain="global" view="Default view">9394e1862f47201003a82f2ef699b69f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-23 19:09:01</sys_updated_on>
+            <sys_updated_on>2021-06-29 18:51:48</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>beer</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-23 19:09:01</sys_created_on>
-            <sys_id>0e772d0a2f47201003a82f2ef699b67b</sys_id>
+            <sys_created_on>2021-06-29 18:51:48</sys_created_on>
+            <sys_id>c95f022d2f41301003a82f2ef699b6d1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_172337_beer_db_check_in" sys_domain="global" view="Default view">9394e1862f47201003a82f2ef699b69f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-23 19:09:01</sys_updated_on>
+            <sys_updated_on>2021-06-29 18:51:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>beer.brewery</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-23 19:09:01</sys_created_on>
-            <sys_id>8e772d0a2f47201003a82f2ef699b67b</sys_id>
+            <sys_created_on>2021-06-29 18:51:48</sys_created_on>
+            <sys_id>4d5f022d2f41301003a82f2ef699b6d1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_172337_beer_db_check_in" sys_domain="global" view="Default view">9394e1862f47201003a82f2ef699b69f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-23 19:09:01</sys_updated_on>
+            <sys_updated_on>2021-06-29 18:51:48</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>beer.style</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-06-29 18:51:48</sys_created_on>
+            <sys_id>cd5f022d2f41301003a82f2ef699b6d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_172337_beer_db_check_in" sys_domain="global" view="Default view">9394e1862f47201003a82f2ef699b69f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-06-29 18:51:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>serving_type</element>
-            <position>6</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-03-23 19:09:02</sys_created_on>
-            <sys_id>02772d0a2f47201003a82f2ef699b67c</sys_id>
+            <sys_created_on>2021-06-29 18:51:48</sys_created_on>
+            <sys_id>415f022d2f41301003a82f2ef699b6d2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_172337_beer_db_check_in" sys_domain="global" view="Default view">9394e1862f47201003a82f2ef699b69f</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-03-23 19:09:02</sys_updated_on>
+            <sys_updated_on>2021-06-29 18:51:48</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
