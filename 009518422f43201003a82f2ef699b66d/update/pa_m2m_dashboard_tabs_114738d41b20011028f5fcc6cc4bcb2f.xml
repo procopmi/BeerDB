@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="Beer">951774d41b20011028f5fcc6cc4bcbbb</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>1</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-16 14:54:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>114738d41b20011028f5fcc6cc4bcb2f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>951774d41b20011028f5fcc6cc4bcbbb</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Beer DB" source="x_172337_beer_db">009518422f43201003a82f2ef699b66d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Beer DB">009518422f43201003a82f2ef699b66d</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_114738d41b20011028f5fcc6cc4bcb2f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-16 14:54:25</sys_updated_on>
+        <tab display_value="Beer - New Tab">d14738d41b20011028f5fcc6cc4bcb2c</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>
