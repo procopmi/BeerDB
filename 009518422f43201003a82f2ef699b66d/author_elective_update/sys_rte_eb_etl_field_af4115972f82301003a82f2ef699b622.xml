@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_field">
+    <sys_rte_eb_etl_field action="DELETE">
+        <coalesce>false</coalesce>
+        <coercion_action>create</coercion_action>
+        <field>u_venue_name</field>
+        <name>Venue Name</name>
+        <sys_class_name>sys_rte_eb_etl_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-23 17:54:03</sys_created_on>
+        <sys_id>af4115972f82301003a82f2ef699b622</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Venue Name</sys_name>
+        <sys_package display_value="Beer DB" source="x_172337_beer_db">009518422f43201003a82f2ef699b66d</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Beer ETL Definition">c9ebf7c62f01301003a82f2ef699b64c</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="Import Set">e3ecbfc62f01301003a82f2ef699b61e</sys_rte_eb_entity>
+        <sys_scope display_value="Beer DB">009518422f43201003a82f2ef699b66d</sys_scope>
+        <sys_update_name>sys_rte_eb_etl_field_af4115972f82301003a82f2ef699b622</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:54:03</sys_updated_on>
+    </sys_rte_eb_etl_field>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Beer DB">009518422f43201003a82f2ef699b66d</application>
+        <file_path/>
+        <instance_id>629cec799b0c178069346b8af359fff3</instance_id>
+        <instance_name>dev48991</instance_name>
+        <name>sys_rte_eb_etl_field_af4115972f82301003a82f2ef699b622</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_field">
+    <sys_rte_eb_etl_field action="INSERT_OR_UPDATE">
+        <coalesce>false</coalesce>
+        <coercion_action>create</coercion_action>
+        <field>u_venue_name</field>
+        <name>Venue Name</name>
+        <sys_class_name>sys_rte_eb_etl_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-08-23 17:54:03</sys_created_on>
+        <sys_id>af4115972f82301003a82f2ef699b622</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Venue Name</sys_name>
+        <sys_package display_value="Beer DB" source="x_172337_beer_db">009518422f43201003a82f2ef699b66d</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Beer ETL Definition">c9ebf7c62f01301003a82f2ef699b64c</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="Import Set">e3ecbfc62f01301003a82f2ef699b61e</sys_rte_eb_entity>
+        <sys_scope display_value="Beer DB">009518422f43201003a82f2ef699b66d</sys_scope>
+        <sys_update_name>sys_rte_eb_etl_field_af4115972f82301003a82f2ef699b622</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-08-23 17:54:03</sys_updated_on>
+    </sys_rte_eb_etl_field>
+</record_update>]]></payload>
+        <payload_hash>92674989</payload_hash>
+        <record_name>Venue Name</record_name>
+        <reverted_from/>
+        <source>49cf53851b11011028f5fcc6cc4bcba5</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-25 17:53:27</sys_created_on>
+        <sys_id>82df5b851b11011028f5fcc6cc4bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e925f05180000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-25 17:53:27</sys_updated_on>
+        <type>ETL Entity field</type>
+        <update_guid>42df5b8570110110980c235c31f66eb1</update_guid>
+        <update_guid_history>42df5b8570110110980c235c31f66eb1:92674989</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-25 18:56:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_etl_field">sys_rte_eb_etl_field</sys_db_object>
+        <sys_id>75f885c03a2e46d085e740fd5e13c440</sys_id>
+        <sys_metadata>af4115972f82301003a82f2ef699b622</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Venue Name</sys_name>
+        <sys_package display_value="Beer DB" source="x_172337_beer_db">009518422f43201003a82f2ef699b66d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Beer DB">009518422f43201003a82f2ef699b66d</sys_scope>
+        <sys_scope_delete display_value="">1f6c526d0b534656846c784f2a7a3c09</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_etl_field_af4115972f82301003a82f2ef699b622</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_etl_field_af4115972f82301003a82f2ef699b622">82df5b851b11011028f5fcc6cc4bcbb1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-25 18:56:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

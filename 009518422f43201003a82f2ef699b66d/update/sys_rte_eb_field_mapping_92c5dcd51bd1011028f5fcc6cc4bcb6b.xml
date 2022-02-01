@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping">
+    <sys_rte_eb_field_mapping action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <referenced_sys_rte_eb_entity/>
+        <source_sys_rte_eb_field display_value="Temp Beer IBU">123ac09d1b91011028f5fcc6cc4bcb97</source_sys_rte_eb_field>
+        <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-25 21:49:33</sys_created_on>
+        <sys_id>92c5dcd51bd1011028f5fcc6cc4bcb6b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Beer DB" source="x_172337_beer_db">009518422f43201003a82f2ef699b66d</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Beer ETL Definition">c9ebf7c62f01301003a82f2ef699b64c</sys_rte_eb_definition>
+        <sys_rte_eb_entity_mapping display_value="Temp Table to Beer">9fd494d51bd1011028f5fcc6cc4bcb24</sys_rte_eb_entity_mapping>
+        <sys_scope display_value="Beer DB">009518422f43201003a82f2ef699b66d</sys_scope>
+        <sys_update_name>sys_rte_eb_field_mapping_92c5dcd51bd1011028f5fcc6cc4bcb6b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-25 21:49:33</sys_updated_on>
+        <target_sys_rte_eb_field display_value="Beer IBU">c0bb4cdd1b91011028f5fcc6cc4bcbfa</target_sys_rte_eb_field>
+    </sys_rte_eb_field_mapping>
+</record_update>
