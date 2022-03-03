@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>listConfigId</name>
+        <page display_value="Beer Workspace">ec5d832957210110d63e9cf50c79f496</page>
+        <required_translations>[]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-08 16:05:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>285d83297d210110de8d386a2bd0f097</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>listConfigId</sys_name>
+        <sys_package display_value="Beer DB" source="x_172337_beer_db">009518422f43201003a82f2ef699b66d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Beer DB">009518422f43201003a82f2ef699b66d</sys_scope>
+        <sys_update_name>sys_ux_page_property_285d83297d210110de8d386a2bd0f097</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-08 16:05:15</sys_updated_on>
+        <type>string</type>
+        <unique_name>x_172337_beer_db.ec5d832957210110d63e9cf50c79f496.root.listConfigId</unique_name>
+        <value>095d83291b21011028f5fcc6cc4bcbe2</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=285d83297d210110de8d386a2bd0f097"/>
+</record_update>

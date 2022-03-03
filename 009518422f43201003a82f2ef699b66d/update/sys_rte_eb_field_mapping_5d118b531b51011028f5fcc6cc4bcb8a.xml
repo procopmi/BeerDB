@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping">
     <sys_rte_eb_field_mapping action="INSERT_OR_UPDATE">
-        <order>100</order>
+        <order>800</order>
         <referenced_sys_rte_eb_entity/>
-        <source_sys_rte_eb_field display_value="Temp Beer Name">530a885d1b91011028f5fcc6cc4bcbc7</source_sys_rte_eb_field>
+        <source_sys_rte_eb_field display_value="Temp Beer ID">294ac85d1b91011028f5fcc6cc4bcbe7</source_sys_rte_eb_field>
         <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-01-25 21:48:54</sys_created_on>
-        <sys_id>bab554191bd1011028f5fcc6cc4bcbd4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2022-02-01 15:25:39</sys_created_on>
+        <sys_id>5d118b531b51011028f5fcc6cc4bcb8a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Beer DB" source="x_172337_beer_db">009518422f43201003a82f2ef699b66d</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="Beer ETL Definition">c9ebf7c62f01301003a82f2ef699b64c</sys_rte_eb_definition>
         <sys_rte_eb_entity_mapping display_value="Temp Table to Beer">9fd494d51bd1011028f5fcc6cc4bcb24</sys_rte_eb_entity_mapping>
         <sys_scope display_value="Beer DB">009518422f43201003a82f2ef699b66d</sys_scope>
-        <sys_update_name>sys_rte_eb_field_mapping_bab554191bd1011028f5fcc6cc4bcbd4</sys_update_name>
+        <sys_update_name>sys_rte_eb_field_mapping_5d118b531b51011028f5fcc6cc4bcb8a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-25 21:48:54</sys_updated_on>
-        <target_sys_rte_eb_field display_value="Beer Name">a89b84dd1b91011028f5fcc6cc4bcbfd</target_sys_rte_eb_field>
+        <sys_updated_on>2022-02-03 20:02:46</sys_updated_on>
+        <target_sys_rte_eb_field display_value="Beer ID">773bc0dd1b91011028f5fcc6cc4bcb95</target_sys_rte_eb_field>
     </sys_rte_eb_field_mapping>
 </record_update>
