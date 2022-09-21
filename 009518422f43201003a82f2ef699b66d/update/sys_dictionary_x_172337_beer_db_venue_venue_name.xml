@@ -34,7 +34,7 @@
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>true</mandatory>
-        <max_length>50</max_length>
+        <max_length>100</max_length>
         <name>x_172337_beer_db_venue</name>
         <next_element/>
         <primary>false</primary>
@@ -53,7 +53,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-03-23 16:09:53</sys_created_on>
-        <sys_id>73dd74c22fc3201003a82f2ef699b68d</sys_id>
+        <sys_id>1dc1afc897301110388b35dfe153afce</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Venue Name</sys_name>
         <sys_package display_value="Beer DB" source="x_172337_beer_db">009518422f43201003a82f2ef699b66d</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="Beer DB">009518422f43201003a82f2ef699b66d</sys_scope>
         <sys_update_name>sys_dictionary_x_172337_beer_db_venue_venue_name</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-23 18:43:57</sys_updated_on>
+        <sys_updated_on>2022-07-18 16:02:55</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

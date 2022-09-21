@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Beer" max_length="40" name="x_172337_beer_db_beer" sizeclass="815" type="collection">
+    <element label="Beer" max_length="40" name="x_172337_beer_db_beer" sizeclass="1000" type="collection">
         <element label="ABV" max_length="20" name="abv" type="decimal"/>
         <element label="Beer ID" max_length="40" name="beer_id" type="string"/>
-        <element display="true" label="Beer Name" mandatory="true" max_length="50" name="beer_name" type="string"/>
+        <element display="true" label="Beer Name" mandatory="true" max_length="100" name="beer_name" type="string"/>
         <element label="Brewery" max_length="32" name="brewery" reference="x_172337_beer_db_brewery" type="reference"/>
         <element label="Global Rating" max_length="20" name="global_rating" type="decimal"/>
         <element label="IBU" max_length="40" name="ibu" type="integer"/>

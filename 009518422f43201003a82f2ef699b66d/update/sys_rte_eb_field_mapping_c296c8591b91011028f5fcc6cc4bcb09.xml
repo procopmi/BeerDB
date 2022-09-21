@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping">
     <sys_rte_eb_field_mapping action="INSERT_OR_UPDATE">
-        <order>100</order>
+        <order>500</order>
         <referenced_sys_rte_eb_entity/>
         <source_sys_rte_eb_field display_value="Temp Brewery ID">b3550cd51b91011028f5fcc6cc4bcb72</source_sys_rte_eb_field>
         <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-01-25 20:42:58</sys_created_on>
         <sys_id>c296c8591b91011028f5fcc6cc4bcb09</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Beer DB" source="x_172337_beer_db">009518422f43201003a82f2ef699b66d</sys_package>
         <sys_policy/>
@@ -16,7 +16,7 @@
         <sys_scope display_value="Beer DB">009518422f43201003a82f2ef699b66d</sys_scope>
         <sys_update_name>sys_rte_eb_field_mapping_c296c8591b91011028f5fcc6cc4bcb09</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-25 20:42:58</sys_updated_on>
+        <sys_updated_on>2022-07-18 13:29:26</sys_updated_on>
         <target_sys_rte_eb_field display_value="Brewery ID">dcf54c591b91011028f5fcc6cc4bcb7a</target_sys_rte_eb_field>
     </sys_rte_eb_field_mapping>
 </record_update>

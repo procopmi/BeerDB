@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Venue" max_length="40" name="x_172337_beer_db_venue" sizeclass="148" type="collection">
+    <element label="Venue" max_length="40" name="x_172337_beer_db_venue" sizeclass="167" type="collection">
         <element label="City" max_length="40" name="city" type="string"/>
         <element label="Country" max_length="40" name="country" type="string"/>
         <element label="Latitude" max_length="20" name="latitude" type="string"/>
         <element label="Longitude" max_length="20" name="longitude" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="State" max_length="40" name="state" type="string"/>
-        <element display="true" label="Venue Name" mandatory="true" max_length="50" name="venue_name" type="string"/>
+        <element display="true" label="Venue Name" mandatory="true" max_length="100" name="venue_name" type="string"/>
         <index name="index">
             <element name="venue_name"/>
             <element name="latitude"/>

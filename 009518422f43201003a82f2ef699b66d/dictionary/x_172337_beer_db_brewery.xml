@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Brewery" max_length="40" name="x_172337_beer_db_brewery" sizeclass="222" type="collection">
+    <element label="Brewery" max_length="40" name="x_172337_beer_db_brewery" sizeclass="246" type="collection">
         <element label="Brewery ID" max_length="20" name="brewery_id" type="string"/>
-        <element display="true" label="Brewery Name" mandatory="true" max_length="50" name="brewery_name" type="string"/>
+        <element display="true" label="Brewery Name" mandatory="true" max_length="100" name="brewery_name" type="string"/>
         <element label="City" max_length="50" name="city" type="string"/>
         <element label="Country" max_length="40" name="country" type="string"/>
         <element label="Have Glass" max_length="40" name="have_glass" type="boolean"/>

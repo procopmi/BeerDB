@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_robust_import_set_transformer">
     <sys_robust_import_set_transformer action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <batch_size>100</batch_size>
         <description/>
         <name>Beer DB Robust Transformer</name>
@@ -11,14 +11,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-08-23 17:19:21</sys_created_on>
         <sys_id>c46989932f82301003a82f2ef699b6f2</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Beer DB Robust Transformer</sys_name>
         <sys_package display_value="Beer DB" source="x_172337_beer_db">009518422f43201003a82f2ef699b66d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Beer DB">009518422f43201003a82f2ef699b66d</sys_scope>
         <sys_update_name>sys_robust_import_set_transformer_c46989932f82301003a82f2ef699b6f2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-01-25 22:02:39</sys_updated_on>
+        <sys_updated_on>2022-07-18 15:57:50</sys_updated_on>
         <verbose>true</verbose>
     </sys_robust_import_set_transformer>
 </record_update>
