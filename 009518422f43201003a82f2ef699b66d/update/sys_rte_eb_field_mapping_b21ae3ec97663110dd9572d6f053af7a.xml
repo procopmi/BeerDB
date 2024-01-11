@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_field_mapping">
     <sys_rte_eb_field_mapping action="INSERT_OR_UPDATE">
-        <order>600</order>
+        <order>100</order>
         <referenced_sys_rte_eb_entity/>
-        <source_sys_rte_eb_field display_value="Temp Brewery ID">b3550cd51b91011028f5fcc6cc4bcb72</source_sys_rte_eb_field>
+        <source_sys_rte_eb_field display_value="Checkin Date">6ab642881b21011028f5fcc6cc4bcbe4</source_sys_rte_eb_field>
         <sys_class_name>sys_rte_eb_field_mapping</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-07-18 15:30:37</sys_created_on>
-        <sys_id>dea38b8197b01110388b35dfe153af83</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_created_on>2023-11-13 21:13:36</sys_created_on>
+        <sys_id>b21ae3ec97663110dd9572d6f053af7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name/>
         <sys_package display_value="Beer DB" source="x_172337_beer_db">009518422f43201003a82f2ef699b66d</sys_package>
         <sys_policy/>
         <sys_rte_eb_definition display_value="Beer ETL Definition">c9ebf7c62f01301003a82f2ef699b64c</sys_rte_eb_definition>
-        <sys_rte_eb_entity_mapping display_value="Temp Table to Beer">9fd494d51bd1011028f5fcc6cc4bcb24</sys_rte_eb_entity_mapping>
+        <sys_rte_eb_entity_mapping display_value="Import Set to Temp Table">b50b6f011b51011028f5fcc6cc4bcbbd</sys_rte_eb_entity_mapping>
         <sys_scope display_value="Beer DB">009518422f43201003a82f2ef699b66d</sys_scope>
-        <sys_update_name>sys_rte_eb_field_mapping_dea38b8197b01110388b35dfe153af83</sys_update_name>
+        <sys_update_name>sys_rte_eb_field_mapping_b21ae3ec97663110dd9572d6f053af7a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-11-13 21:17:30</sys_updated_on>
-        <target_sys_rte_eb_field display_value="Brewery ID">2ec5cf0597b01110388b35dfe153af67</target_sys_rte_eb_field>
+        <sys_updated_on>2023-11-13 21:13:36</sys_updated_on>
+        <target_sys_rte_eb_field display_value="Temp Checkin Date">5f1c46801b61011028f5fcc6cc4bcb9b</target_sys_rte_eb_field>
     </sys_rte_eb_field_mapping>
 </record_update>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_glide_lookup_operation">
+    <sys_rte_eb_glide_lookup_operation action="DELETE">
+        <conditional_fields/>
+        <conditional_script><![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i < batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        // based on the input variables assign variable 'b' to true or false.
+        var b = true; // or false;
+
+        // step3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]></conditional_script>
+        <glide_matching_fields>brewery_id</glide_matching_fields>
+        <glide_target_fields>sys_id</glide_target_fields>
+        <is_conditional>false</is_conditional>
+        <name>Brewery Lookup</name>
+        <operation_group/>
+        <order>200</order>
+        <source_sys_rte_eb_field/>
+        <source_sys_rte_eb_fields>2ec5cf0597b01110388b35dfe153af67</source_sys_rte_eb_fields>
+        <sys_class_name>sys_rte_eb_glide_lookup_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-18 15:39:58</sys_created_on>
+        <sys_id>bec4c74597b01110388b35dfe153af0a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Brewery Lookup</sys_name>
+        <sys_package display_value="Beer DB" source="x_172337_beer_db">009518422f43201003a82f2ef699b66d</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Beer ETL Definition">c9ebf7c62f01301003a82f2ef699b64c</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="Beer">ec2b489d1b91011028f5fcc6cc4bcbf4</sys_rte_eb_entity>
+        <sys_scope display_value="Beer DB">009518422f43201003a82f2ef699b66d</sys_scope>
+        <sys_update_name>sys_rte_eb_glide_lookup_operation_bec4c74597b01110388b35dfe153af0a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-18 15:45:00</sys_updated_on>
+        <target_sys_rte_eb_field/>
+        <target_sys_rte_eb_fields>680ccc9d1b91011028f5fcc6cc4bcbee</target_sys_rte_eb_fields>
+        <target_table>x_172337_beer_db_brewery</target_table>
+        <type display_value="Glide Lookup Operation">a068e629730000102b6265a751ab9e77</type>
+    </sys_rte_eb_glide_lookup_operation>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Beer DB">009518422f43201003a82f2ef699b66d</application>
+        <file_path/>
+        <instance_id>f33ddbf06fd1d6804c327b2f5d3ee476</instance_id>
+        <instance_name>dev18293</instance_name>
+        <name>sys_rte_eb_glide_lookup_operation_bec4c74597b01110388b35dfe153af0a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_rte_eb_glide_lookup_operation"&gt;
+    &lt;sys_rte_eb_glide_lookup_operation action="INSERT_OR_UPDATE"&gt;
+        &lt;conditional_fields/&gt;
+        &lt;conditional_script&gt;&lt;![CDATA[/* Example Script
+(function(batch, output) {
+    for (var i = 0; i &lt; batch.length; i++) {
+        
+        // step1: access the input variables
+        var a = batch[i].input;
+
+        // step2: your script code goes here
+        // based on the input variables assign variable 'b' to true or false.
+        var b = true; // or false;
+
+        // step3: set the output for each element
+        output[i] = b;
+    }
+})(batch, output);
+*/
+(function(batch, output) {
+    // add your code here
+    
+})(batch, output);]]&gt;&lt;/conditional_script&gt;
+        &lt;glide_matching_fields&gt;brewery_id&lt;/glide_matching_fields&gt;
+        &lt;glide_target_fields&gt;sys_id&lt;/glide_target_fields&gt;
+        &lt;is_conditional&gt;false&lt;/is_conditional&gt;
+        &lt;name&gt;Brewery Lookup&lt;/name&gt;
+        &lt;operation_group/&gt;
+        &lt;order&gt;200&lt;/order&gt;
+        &lt;source_sys_rte_eb_field/&gt;
+        &lt;source_sys_rte_eb_fields&gt;2ec5cf0597b01110388b35dfe153af67&lt;/source_sys_rte_eb_fields&gt;
+        &lt;sys_class_name&gt;sys_rte_eb_glide_lookup_operation&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2022-07-18 15:39:58&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;bec4c74597b01110388b35dfe153af0a&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Brewery Lookup&lt;/sys_name&gt;
+        &lt;sys_package display_value="Beer DB" source="x_172337_beer_db"&gt;009518422f43201003a82f2ef699b66d&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_rte_eb_definition display_value="Beer ETL Definition"&gt;c9ebf7c62f01301003a82f2ef699b64c&lt;/sys_rte_eb_definition&gt;
+        &lt;sys_rte_eb_entity display_value="Beer"&gt;ec2b489d1b91011028f5fcc6cc4bcbf4&lt;/sys_rte_eb_entity&gt;
+        &lt;sys_scope display_value="Beer DB"&gt;009518422f43201003a82f2ef699b66d&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_rte_eb_glide_lookup_operation_bec4c74597b01110388b35dfe153af0a&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2022-07-18 15:45:00&lt;/sys_updated_on&gt;
+        &lt;target_sys_rte_eb_field/&gt;
+        &lt;target_sys_rte_eb_fields&gt;680ccc9d1b91011028f5fcc6cc4bcbee&lt;/target_sys_rte_eb_fields&gt;
+        &lt;target_table&gt;x_172337_beer_db_brewery&lt;/target_table&gt;
+        &lt;type display_value="Glide Lookup Operation"&gt;a068e629730000102b6265a751ab9e77&lt;/type&gt;
+    &lt;/sys_rte_eb_glide_lookup_operation&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>1005219799</payload_hash>
+        <record_name>Brewery Lookup</record_name>
+        <reverted_from/>
+        <source>dfee4b5797013110dd9572d6f053af69</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-09-08 18:44:13</sys_created_on>
+        <sys_id>bf0f0b9797013110dd9572d6f053af88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18a761be1640000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-09-08 18:44:13</sys_updated_on>
+        <type>RTE Glide Lookup Operation</type>
+        <update_guid>7f0f0b97f9013110fd704d6dd2707788</update_guid>
+        <update_guid_history>7f0f0b97f9013110fd704d6dd2707788:1005219799</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-11-13 21:23:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_glide_lookup_operation">sys_rte_eb_glide_lookup_operation</sys_db_object>
+        <sys_id>148902e4ac7b463ea6923ce00d2be0d1</sys_id>
+        <sys_metadata>bec4c74597b01110388b35dfe153af0a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Brewery Lookup</sys_name>
+        <sys_package display_value="Beer DB" source="x_172337_beer_db">009518422f43201003a82f2ef699b66d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Beer DB">009518422f43201003a82f2ef699b66d</sys_scope>
+        <sys_scope_delete display_value="">1f6c526d0b534656846c784f2a7a3c09</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_glide_lookup_operation_bec4c74597b01110388b35dfe153af0a</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_glide_lookup_operation_bec4c74597b01110388b35dfe153af0a">bf0f0b9797013110dd9572d6f053af88</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-11-13 21:23:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
